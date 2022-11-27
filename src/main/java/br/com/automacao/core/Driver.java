@@ -10,7 +10,7 @@ import br.com.automacao.utils.Browser;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Driver {
-	WebDriver driver;
+	private WebDriver driver;
 
 	public Driver(Browser navegador) {
 		switch (navegador) {
